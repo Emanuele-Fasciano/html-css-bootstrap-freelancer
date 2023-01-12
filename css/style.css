@@ -1,0 +1,69 @@
+ /* reset */
+ img,
+ svg,
+ picture,
+ video {
+     max-width: 100%;
+ }
+ 
+ 
+ /* header */
+
+ header{
+    background-color: #2C3E50;
+ }
+ 
+ header .col-3{
+    height: 50px;
+    background-color: red;
+}
+
+
+/* jumbotron */
+
+.jumbotron{
+    height: 200px;
+    background-color: #1ABC9C;
+}
+
+
+/* portfolio */
+
+.portfolio .container [class*="col-"]{
+    /* aspect-ratio: 1; */
+    /* background-color: forestgreen;
+    border: 1px solid black; */
+}
+
+/* about */
+
+.about{
+    height: 200px;
+    background-color: #1ABC9C;
+}
+
+
+/* contact-me */
+
+.contact-me{
+    height: 300px;
+}
+
+
+/* footer */
+
+footer{
+    height: 200px;
+    background-color:#3A546D
+}
+
+footer [class*="col-"] {
+   height: 50px;
+   background-color: aqua;
+   border: 1px solid black;
+}
+
+footer .copyright{
+    height: 50px;
+    background-color: #2C3E50;
+}
