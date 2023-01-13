@@ -107,6 +107,11 @@ footer a{
     color: #20AB94;
 }
 
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 footer .copyright{
     background-color: #2C3E50;
 }
