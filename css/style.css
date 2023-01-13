@@ -18,13 +18,20 @@
     color: white;
  }
 
- .hamburger-menu{
-    width: 40px;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
+ header nav li a{
+    color: white !important;
+ } 
+
+ header i{
+     color: white;
  }
- 
+
+  header nav button{
+    border-color: white !important;
+  }
+
+
+
 
 /* jumbotron */
 
@@ -62,27 +69,47 @@
 
 /* contact-me */
 
-.contact-me{
-    height: 300px;
+.contact-me input,textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 
 /* footer */
 
 footer{
-    height: 200px;
-    background-color:#3A546D
+    background-color:#3A546D;
+    color: white;
+    
 }
 
-footer [class*="col-"] {
-   height: 50px;
-   background-color: aqua;
-   border: 1px solid black;
+
+
+footer .icon-box{
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px 15px;
 }
 
+footer .icon-box-google{
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px 12px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #20AB94;
+}
 footer .copyright{
-    height: 50px;
     background-color: #2C3E50;
+}
+
+footer .copyright p{
+    font-size: .8rem;
 }
 
 /* utils */
@@ -109,4 +136,8 @@ footer .copyright{
 
 .black {
     background-color: black;
+}
+
+label{
+    display: block;
 }
