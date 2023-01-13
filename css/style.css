@@ -6,7 +6,7 @@
      max-width: 100%;
  }
  
- 
+
  /* header */
 
  header{
@@ -31,8 +31,6 @@
   }
 
 
-
-
 /* jumbotron */
 
 .jumbotron{
@@ -46,12 +44,12 @@
 }
 
 
-
 /* portfolio */
 
 .portfolio  img{
     border-radius: 20px;
 }
+
 
 /* about */
 
@@ -75,6 +73,12 @@
     border-bottom: 1px solid black;
 }
 
+.contact-me button{
+    width: 80px;
+    color: white;
+    background-color: #1ABC9C;
+}
+
 
 /* footer */
 
@@ -83,8 +87,6 @@ footer{
     color: white;
     
 }
-
-
 
 footer .icon-box{
     display: inline-block;
@@ -104,6 +106,7 @@ footer a{
     text-decoration: none;
     color: #20AB94;
 }
+
 footer .copyright{
     background-color: #2C3E50;
 }
@@ -112,7 +115,8 @@ footer .copyright p{
     font-size: .8rem;
 }
 
-/* utils */
+
+/* UTILS */
 
 .fa-star{
     font-size: 2.5rem;
@@ -135,7 +139,7 @@ footer .copyright p{
 }
 
 .black {
-    background-color: black;
+    background-color: #2C3E50;
 }
 
 label{
